@@ -2,3 +2,7 @@ body {
     background-color:#FFF8E7;
     color:#ED2323;
 }
+
+#title {
+    text-align: right;
+}
