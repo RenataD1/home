@@ -7,7 +7,8 @@ body {
 }
 #yolk-container {
   /* background-color: red; */
-  position:fixed;
+  position:absolute;
+  bottom:0;
   text-align: center;
   width:100%;
   height:100px;
@@ -17,7 +18,7 @@ body {
   width:1000px;
   height:400px;
   position: relative;
-  top:-250px;
+  bottom:75px;
   display:inline-block;
   margin:0 auto;
   border-radius: 100%;
@@ -31,6 +32,13 @@ body {
     text-align: right;
 }
 
+#author-title{
+  font-size: 100pt;
+  position:relative;
+  bottom:0;
+  text-align: right;
+}
+
 
 #footer {
   background-color: #ED2323;
@@ -38,6 +46,7 @@ body {
   margin:0;
   position:absolute;
   width:100%;
-  /* height:; */
+  height:100px;
+  z-index: 10;
   bottom:0;
 }
